@@ -1,0 +1,12 @@
+name: RNWF
+
+on: [push]
+
+jobs:
+  job1:
+    runs-on: uwu-lastest
+    steps: 
+      - run: echo "Wow"
+      - name: Checkout
+      uses: actions/checkout@v4.2.2
+
